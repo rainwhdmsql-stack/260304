@@ -1,0 +1,18 @@
+ul{
+    list-style-type: none;
+    background-color: pink;
+    box-sizing: border-box;
+    width: 250px;
+    padding: 10px;
+}
+li{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    /* margin: 10px; */
+    margin-bottom: 10px;
+    text-align: center;
+}
+li:last-child{
+    margin: 0px;
+}

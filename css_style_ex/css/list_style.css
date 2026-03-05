@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+ul,li{
+    list-style: none;
+}
+.menu1{
+    /* list-style-type: none; */
+    /* list-style-type:square; */
+    /* list-style-image: url("../images/apple.png"); */
+background-color: antiquewhite;
+}
+.menu1 li{
+    width: 100px;
+    height: 50px;
+    border: 1px solid red;
+    /* margin: 10px; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.menu2{
+    width: 100px;
+    background-color: aqua;
+    padding: 10px;
+    
+}
+.menu2 li{
+    border: 1px solid #333;
+    padding: 10px;
+    /* margin: 10px; */
+    /* margin-left: 10px; */
+    margin-bottom: 10px;}
+    .menu2 li:last-child{
+        margin: 0px;
+    }
